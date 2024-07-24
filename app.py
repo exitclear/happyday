@@ -1,7 +1,7 @@
 import openai
 import streamlit as st
 
-
+#修改位置
 st.title("趣味旅行")
 client = openai.OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
 if "openai_model" not in st.session_state:
